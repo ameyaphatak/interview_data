@@ -1,0 +1,35 @@
+We are not very concerned that you get the correct answer.  We are more interested in
+ seeing how you work to construct a solution.
+---------------------------------------------------------------------------------------
+
+   Paul needs to identify what materials are in his sample.  Paul used our microscope 
+to record a spectrum on his sample, and now he is using our software to try to identify 
+the material in the sample.
+
+   We have a database of spectra that were recorded from different pure materials.  We 
+must write a program to look for a match between Paul's sample spectrum and the spectra 
+in our database.
+
+Paul's sample spectrum is saved in the file sample.csv.
+
+1. The first version of our database contains spectra in the files reference1.csv, 
+      reference2.csv, reference3.csv, reference4.csv.  These spectra were all recorded at 
+      the same wavenumbers as Pauls's sample spectrum, so comparison is simple.
+   Write code that determines which spectrum from the database is the most like Paul's 
+      sample spectrum.
+
+2. We expanded our spectra database and added the files reference5.csv, reference6.csv. 
+      This is great for Paul, but requires a modification to our code.  The new spectra 
+      are not recorded with the same range or step size as the original spectra in the 
+      database.
+   Adjust your code from #1 to determine which spectrum from the updated database is the 
+      most like Paul's sample spectrum.
+
+3. (Extra credit)
+   Paul now thinks he knows what materials his sample contains.  They correspond to 
+      reference2 and reference6.csv.  When a sample contains multiple materials, they are 
+      usually not mixed evenly in the sample.  Paul needs to identify how these materials 
+      are distributed in his sample.  He will record many spectra across the sample, but 
+      first he is testing our software's computations.
+   Write code to determine what is the ratio of the two materials in Paul's sample 
+      spectrum.
